@@ -8,6 +8,8 @@ while(firstName === null){
 
 }
 
+//alert() crea un pop up bloccante 
+
 alert( firstName + " benvenuto nel quiz di dragonball!!")
 
 //qui dichiariamo le domande, le risposte corrette e quelle sbagliate 
@@ -268,6 +270,7 @@ function calcoloPercentuale(percentuale, totale){
 
 console.log("le risposte esatte sono  " + correct)
 console.log("le risposte errate sono  " + wrong)
+console.log("la percentuale dinrisposte esatte sono: " + perc);
 
 
 
